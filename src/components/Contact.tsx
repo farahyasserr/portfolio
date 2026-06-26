@@ -79,7 +79,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative flex min-h-screen snap-start snap-always scroll-mt-24 items-center overflow-hidden bg-[var(--bg)] py-24 md:py-32"
+      className="relative flex min-h-screen snap-start snap-always scroll-mt-24 flex-col items-center justify-center overflow-hidden bg-[var(--bg)]"
     >
       <div
         className="aurora-slow pointer-events-none absolute left-1/2 top-1/2 h-[500px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full"
@@ -90,8 +90,8 @@ export default function Contact() {
         }}
       />
 
-      <div className="container relative z-10">
-        <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
+      <div className="container relative z-10 flex w-full flex-col items-center justify-center">
+        <div className="flex w-full max-w-3xl flex-col items-center text-center">
           <FadeIn>
             <span
               className="mb-5 inline-flex rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide"
@@ -111,7 +111,7 @@ export default function Contact() {
           </BlurReveal>
 
           <FadeIn delay={0.15}>
-            <p className="mb-12 max-w-xl text-base leading-relaxed" style={{ color: "var(--text-2)" }}>
+            <p className="mb-12 max-w-xl text-base leading-relaxed" style={{ color: "var(--text-2)" , marginBlock: "30px"}}>
               I&apos;m always open to discussing new projects, creative ideas, or opportunities to
               be part of something extraordinary.
             </p>
@@ -120,7 +120,7 @@ export default function Contact() {
           <FadeIn delay={0.2} className="w-full">
             <div
               className="card w-full p-3 md:p-4"
-              style={{ borderRadius: 20, background: "var(--surface)" }}
+              style={{ borderRadius: 20,  }}
             >
               <div className="flex flex-col gap-3 sm:flex-row">
                 <ContactCard
