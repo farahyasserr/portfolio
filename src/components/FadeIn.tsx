@@ -58,6 +58,7 @@ export function StaggerChildren({
         visible: { transition: { staggerChildren: staggerDelay } },
       }}
       className={className}
+      style={{ marginTop: "20px" }}
     >
       {children}
     </motion.div>
