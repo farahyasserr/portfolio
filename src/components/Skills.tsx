@@ -419,9 +419,19 @@ export default function Skills() {
                 >
                   With 7+ years in React Native, I take apps from architecture and design
                   systems through native iOS and Android modules to App Store and Play
-                  Store releases. SOLID principles, reusable components, and
-                  performance-first engineering keep every codebase maintainable — whether
-                  I&apos;m leading code reviews, mentoring engineers, or shipping end to end.
+                  Store releases. Built an iOS ReplayKit + Android MediaProjection bridge
+                  for in-app screen recording with a JS annotation layer — bridging native
+                  capture APIs when the JS layer alone isn&apos;t enough.
+                </p>
+                <p
+                  className="mt-3 text-xs leading-relaxed md:text-sm"
+                  style={{ color: "var(--text-2)" }}
+                >
+                  Led architectural decisions for my latest three apps (ProShop, Voxa,
+                  Plate) — introduced PR templates, authored multiple architecture docs,
+                  and set engineering standards across code reviews and mentoring. SOLID
+                  principles, reusable components, and performance-first engineering keep
+                  every codebase maintainable.
                 </p>
               </div>
             </motion.div>

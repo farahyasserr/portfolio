@@ -6,6 +6,7 @@ export const meta = {
   email: "Farah.dawoudd@gmail.com",
   resume: "/Farah_Dawoud_Resume.pdf",
   linkedin: "https://www.linkedin.com/in/farahyasserr/",
+  github: "https://github.com/farahyasserr",
   location: "San Francisco, CA",
 };
 
@@ -48,8 +49,8 @@ export const projects: Project[] = [
   {
     name: "ProShop",
     category: "Golf / Sports",
-    description: "All-in-one golf coaching platform with structured lesson plans, GPS course mapping across 40k+ courses, video content, screen recording & annotation tools.",
-    highlights: ["GPS & Maps", "Video content", "Screen recording + annotation", "Social community", "Skill benchmarking"],
+    description: "All-in-one golf coaching platform with structured lesson plans, GPS course mapping across 40k+ courses, and video content. Built an iOS ReplayKit + Android MediaProjection bridge for in-app screen recording with a JS annotation layer.",
+    highlights: ["ReplayKit + MediaProjection bridge", "GPS & Maps", "JS annotation layer", "Social community", "Skill benchmarking"],
     appStoreUrl: "https://apps.apple.com/eg/app/proshop-app/id6673893799",
     logo: "/projects/proshop.png",
     builtFromScratch: true,

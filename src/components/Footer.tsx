@@ -27,7 +27,7 @@ export default function Footer() {
         {/* Social links */}
         <div className="flex items-center gap-6">
           <a
-            href="https://github.com/"
+            href={meta.github}
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm transition-colors duration-200 hover:text-[color:var(--text)]"
