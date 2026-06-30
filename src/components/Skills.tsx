@@ -27,12 +27,12 @@ const skillGroups = [
   {
     category: "State & Data",
     color: "#60a5fa",
-    items: ["Redux", "Zustand", "Context API", "REST APIs", "GraphQL"],
+    items: ["Redux", "RTK Query", "Zustand", "Context API", "REST APIs", "GraphQL"],
   },
   {
     category: "Navigation & UI",
     color: "#34d399",
-    items: ["React Navigation", "Reanimated 2", "Gesture Handler", "Skia"],
+    items: ["React Navigation", "Expo Router", "Reanimated 2", "Gesture Handler"],
   },
   {
     category: "Platform Features",
@@ -41,6 +41,7 @@ const skillGroups = [
       "GPS & Maps",
       "Video Streaming",
       "Screen Recording",
+      "Screen Annotation",
       "Biometric Auth",
       "Push Notifications",
       "Payments",
@@ -50,7 +51,15 @@ const skillGroups = [
   {
     category: "Tooling & Delivery",
     color: "#f472b6",
-    items: ["App Store Deployment", "Play Store Deployment", "CI/CD", "Fastlane", "Performance Profiling"],
+    items: [
+      "Jest",
+      "Unit & E2E Testing",
+      "App Store Deployment",
+      "Play Store Deployment",
+      "CI/CD",
+      "Fastlane",
+      "Performance Profiling",
+    ],
   },
 ];
 
@@ -307,6 +316,7 @@ export default function Skills() {
         initial={false}
         animate={{ opacity: isActive ? 1 : 0, y: isActive ? 0 : 36 }}
         transition={{ duration: 0.55, ease }}
+        style={{ marginTop: "10px" }}
       >
         {/* Header */}
         <FadeIn className="mb-12 flex flex-col items-center text-center">
