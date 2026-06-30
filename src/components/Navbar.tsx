@@ -63,7 +63,8 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href={`mailto:${meta.email}`}
+            href={meta.resume}
+            download="Farah_Dawoud_Resume.pdf"
             className="btn btn-primary ml-3"
             style={{ padding: "9px 20px", fontSize: 13 }}
           >
@@ -119,7 +120,8 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href={`mailto:${meta.email}`}
+            href={meta.resume}
+            download="Farah_Dawoud_Resume.pdf"
             onClick={() => setMenuOpen(false)}
             className="btn btn-primary mt-3"
           >

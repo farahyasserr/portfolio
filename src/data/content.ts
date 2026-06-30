@@ -4,6 +4,7 @@ export const meta = {
   title: "Senior Mobile Developer",
   tagline: "Senior Mobile Developer crafting high-performance ecosystems for the next generation of digital products.",
   email: "Farah.dawoudd@gmail.com",
+  resume: "/Farah_Dawoud_Resume.pdf",
   linkedin: "https://www.linkedin.com/in/farahyasserr/",
   location: "San Francisco, CA",
 };
